@@ -1,0 +1,42 @@
+Put you source files here
+
+fonctions déjà implémentées :
+
+[Tempet:code/student/_osx] fberard% nm libeibase.a | grep " T "
+0000000000000000 T _ei_rect_included_in_rect
+0000000000000040 T _ei_rect_outside_rect
+0000000000000090 T _ei_rects_intersect
+0000000000000100 T _ei_region_of_interest
+0000000000000120 T _fa_pr_finish_offscreen
+0000000000000000 T _fa_pr_setup_offscreen
+0000000000000100 T _ei_draw_polygon
+0000000000000000 T _ei_draw_polyline
+0000000000000060 T _allocate_sdl_surface
+0000000000000000 T _allocate_surface
+0000000000000240 T _ei_color_to_sdl_color
+0000000000000230 T _ei_rect_to_sdl_rect
+00000000000005c0 T _hw_create_window
+0000000000000320 T _hw_event_post_app
+0000000000001620 T _hw_event_schedule_app
+0000000000001490 T _hw_event_wait_next
+0000000000000cb0 T _hw_image_load
+0000000000000380 T _hw_init
+0000000000001660 T _hw_now
+0000000000000560 T _hw_quit
+00000000000006c0 T _hw_surface_create
+0000000000000750 T _hw_surface_free
+0000000000000a50 T _hw_surface_get_buffer
+0000000000000a20 T _hw_surface_get_channel_indices
+0000000000000a90 T _hw_surface_get_rect
+0000000000000a80 T _hw_surface_get_size
+0000000000000a10 T _hw_surface_has_alpha
+00000000000007c0 T _hw_surface_lock
+0000000000000a40 T _hw_surface_set_origin
+00000000000007e0 T _hw_surface_unlock
+0000000000000800 T _hw_surface_update_rects
+0000000000000aa0 T _hw_text_compute_size
+0000000000000ac0 T _hw_text_create_surface
+00000000000004d0 T _hw_text_font_create
+00000000000005a0 T _hw_text_font_free
+0000000000000260 T _process_modifiers
+00000000000002a0 T _sdl_timer_callback
